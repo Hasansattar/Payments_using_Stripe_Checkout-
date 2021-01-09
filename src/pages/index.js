@@ -26,6 +26,7 @@ export default function Home() {
 
 
   return <div>
-    <button  onClick={redirectToCheckout}>Buy Laptop</button>
+    <button  onClick={redirectToCheckout}>Buy Laptop</button>  &nbsp;&nbsp;
+   <button> <a href="http://localhost:8000/products">products</a></button>
   </div>
 }

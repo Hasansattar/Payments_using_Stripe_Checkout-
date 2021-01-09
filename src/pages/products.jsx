@@ -58,7 +58,7 @@ query MyQuery {
 
         <p>{node.product.name}</p>
         <p>{node.product.description}</p>
-         <img src={node.product.images[0]}  height="200" width="200" /> <br/>
+         <img src={node.product.images[0]}  height="200" width="200"  alt="pictuure" /> <br/>
          <button  onClick={(e)=>redirectToCheckout(e,node.id)}>Buy {node.product.name}</button>
 
                 </div>  
